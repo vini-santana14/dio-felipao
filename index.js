@@ -2,7 +2,7 @@ let nome = 'Liveless'
 let exp = 1000
 let nivel = ''
 
-if (exp <= 1000){
+if (exp < 1000){
     nivel = 'Ferro'
 
 } else if (exp >= 1001 && exp <= 2000) {
